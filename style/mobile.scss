@@ -1,0 +1,56 @@
+@media screen and (max-width: 576px){
+  .two-column {
+     display: grid;
+     grid-template-rows: 1fr 1fr;
+     grid-template-columns: auto;
+     padding: 3rem;  
+     
+  
+  &__body {
+     color: white;
+     background-color: #af9453;
+     padding: 1rem;
+     width: 100%;
+  }
+ 
+  &__image {
+     grid-row-start: 2; 
+     display: block
+      
+     img {
+       width: 100%;
+       max-height: 24rem;
+       object-fit: cover;}
+          }
+      }
+  
+      .one-column{
+         background-image: url(http://behesht.co.uk/images/behesht/slider/slide-2.jpg);
+         display: grid;
+         grid-template-columns: auto;
+         grid-auto-rows: 1fr;
+      
+          &__card{
+            grid-row-start: 2;
+            justify-self: end;
+            width: 30%;
+            color: white;
+            background-color: #af9453;
+            padding: 1rem;
+            margin: 50px 3%;
+            border-radius: 10px;}
+        }
+      
+      
+      .text{ display: grid;
+             place-items: center ;
+        &__p{ 
+          width: 30%;
+          color: black;}
+      }
+      
+       
+  
+  
+   }
+  

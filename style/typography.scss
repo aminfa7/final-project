@@ -1,0 +1,39 @@
+.sans {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+}
+
+.serif {
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+}
+
+.center {
+  text-align: center;
+}
+
+
+.caps {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+ 
+.xcaps{
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+.hsmall {
+  font-size: 1.22rem;
+  line-height: 1.4;
+}
+
+.hlarge {
+  font-size: 1.666rem;
+  line-height: 1.4;
+}
+
+.hxlarge {
+  font-size: 2rem;
+  line-height: 1.4;
+}

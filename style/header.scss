@@ -1,0 +1,59 @@
+.navbar {
+  border-bottom: 1px solid #af9453;
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+  background: #af9453;
+  position: fixed;
+  top:0px;
+  right: 0px; 
+  left: 0px;
+  display: grid;
+  grid-template-columns: 70px auto;
+
+
+  &__image {
+    display: inline;
+    height: 70px;
+    width: 70px;
+    grid-column-start: 1;
+  }   
+
+  &__menu{
+    margin: 0 30px 0 0;
+
+      a {
+        clear: right;
+        text-decoration: none;
+        color: #f1f1f1;
+        margin: 0 10px;
+        line-height: 70px;
+      }
+  }
+
+}
+
+#toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 576px) {
+  label {
+    display: block;
+    cursor: pointer;
+  }
+  .navbar__menu {
+  text-align: center;
+  width: 100%;
+  display: none;
+      a {
+      display: block;
+      border-bottom: 1px solid #EAEAEB;
+      margin: 0;}
+  }
+  #toggle:checked + .menu {
+    display: block;
+  }
+
+}
+

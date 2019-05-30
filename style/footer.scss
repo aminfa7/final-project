@@ -1,0 +1,28 @@
+.footer {
+  color: white;
+  margin-top: 3rem;
+  background-color: #af9453;
+  position: relative;
+  
+
+  &__wrapper {
+    max-width: 85%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 0 auto;
+    padding: 2.5rem 0;
+  }
+
+  &__column {
+    padding: 0 1.5rem;
+    border-left: 1px solid white;
+    &:first-child {
+      border: none;
+    }
+  }
+
+  &__social {
+    display: flex;
+    width: 100%;
+  }
+}

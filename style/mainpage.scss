@@ -1,0 +1,64 @@
+.welcome{ 
+ background-image: url(https://www.behesht.co.uk/images/behesht/INT28.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+
+
+ 
+ &__p{
+   padding: 20rem 5rem;
+   color:#f1f1f1;
+   background-image: url(https://www.behesht.co.uk/images/behesht/INT28.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;}
+}
+
+
+
+  .two-column {
+    display: grid;
+    grid-template-columns: 1fr 3.5rem 2fr;
+    padding: 3rem;  
+
+    &__body {
+      color: white;
+      background-color: #af9453;
+      padding: 1rem;
+    }
+
+    &__image {
+      grid-column: 3;
+      display: block
+      img {
+        width: 100%;
+        max-height: 24rem;
+        object-fit: cover;}
+      }
+  }
+//}
+
+
+.one-column{
+   background-image: url(http://behesht.co.uk/images/behesht/slider/slide-2.jpg);
+   display: grid;
+   grid-template-columns: 100px auto;
+
+    &__card{
+      grid-column-start: 2;
+      justify-self: end;
+      width: 30%;
+      color: white;
+      background-color: #af9453;
+      padding: 1rem;
+      margin: 50px 3%;
+      border-radius: 10px;}
+  }
+
+
+.text{ display: grid;
+       place-items: center ;
+  &__p{ 
+    width: 30%;
+    color: black;}
+}
+

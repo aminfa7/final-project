@@ -1,0 +1,19 @@
+.card {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  justify-items: center;
+  width: 40%;
+  padding: 2rem 1rem;
+  background-color: #fbfbfb;
+  border-radius: .5rem;
+
+  &__image {
+    width: 55%;
+    margin-bottom: 1.5rem;
+    border-radius: 50%;
+  }
+
+  h2 {
+    margin: 0;
+  }
+}
